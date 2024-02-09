@@ -1,0 +1,12 @@
+ @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Roboto:ital,wght@0,400;0,500;1,300;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card{
+    @apply  bg-white rounded overflow-hidden shadow-md justify-center relative
+}
+.btn{
+    @apply rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider
+}
